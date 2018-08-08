@@ -21,7 +21,7 @@
             var node = linkedListNode{data: 34}
             fmt.Println(node.next) // <nil>
         ```
-    * `struct` zero value is composition of its member variables
+    * `struct` zero value is composition of its member variable's zero value
         ```go
         type linkedListNode struct {
             data int
